@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Group Chat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type ="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src='js/app.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="error"></div>
+      <h1>Conversation Board</h1>
+      <div id="message_board"></div>
+      <form id="new_message">
+        <input type="text" id="message" placeholder="enter your message here">
+        <input type="submit" value="Send">
+      </form>
+      <h3>Users Online</h3>
+      <div id='users'>
+        <ul id='users_list'>
+
+        </ul>
+      </div>
+      <button id="leave">Leave</button>
+    </div>
+  </body>
+</html>

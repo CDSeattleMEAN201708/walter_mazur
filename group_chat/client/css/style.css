@@ -1,0 +1,11 @@
+* {
+  /*border: 1px dotted red;*/
+}
+
+#message_board {
+  border: 1px solid black;
+}
+
+#users {
+  border: 1px solid black;
+}
