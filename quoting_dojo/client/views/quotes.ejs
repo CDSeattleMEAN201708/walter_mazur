@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quotes</title>
+  </head>
+  <body>
+    <h1>Quotes</h1>
+    <%for(let i = 0;i<quotes.length;i++){%>
+      <div class="quote">
+        <p>"<%= quotes[i].quote %>"</p>
+        <p><%= quotes[i].author%> at <%= quotes[i].date%></p>
+      </div>
+    <%}%>
+  </body>
+</html>
