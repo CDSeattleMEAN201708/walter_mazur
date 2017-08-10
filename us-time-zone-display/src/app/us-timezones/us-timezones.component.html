@@ -1,0 +1,35 @@
+<div style="text-align:center">
+  <h2>{{title}}</h2>
+  <button
+    (click)="getDate('pst')"
+    [ngClass]="{highlight: selected === 'pst'}"
+  >
+    PST
+  </button>
+  <button
+    (click)="getDate('mst')"
+    [ngClass]="{highlight: selected === 'mst'}"
+  >
+    MST
+  </button>
+  <button
+    (click)="getDate('cst')"
+    [ngClass]="{highlight: selected === 'cst'}"
+  >
+    CST
+  </button>
+  <button
+    (click)="getDate('est')"
+    [ngClass]="{highlight: selected === 'est'}"
+  >
+    EST
+  </button>
+  <button
+    (click)="getDate('clear')"
+    [ngClass]="{highlight: selected === 'clear'}"
+  >
+    Clear
+  </button>
+  <p>{{zone}}</p>
+  <p>{{time | date:'medium'}}</p>
+</div>
