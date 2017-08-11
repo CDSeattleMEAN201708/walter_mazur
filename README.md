@@ -12,7 +12,8 @@
   * [https://github.com/mazurbeam/dojo-mail]
 * Retro Barcode Generator
   * [https://github.com/mazurbeam/retro-barcode-generator]
-
+* Registration
+  * [https://github.com/mazurbeam/registration]
 
 
 #### Week 3
