@@ -14,6 +14,7 @@
   * [https://github.com/mazurbeam/retro-barcode-generator]
 * Registration
   * [https://github.com/mazurbeam/registration]
-
+* Quote Ranks
+  * [https://github.com/mazurbeam/quote-ranks]
 
 #### Week 3
